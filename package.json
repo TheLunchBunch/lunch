@@ -5,9 +5,9 @@
   "main": "index.js",
   "engines": {"node": "6.8.1"},
   "scripts": {
+    "pretest": "npm run lint",
     "test": "MONGODB_URI=mongodb://localhost/lunch-test mocha --recursive",
     "lint": "eslint .",
-    "pretest": "npm run lint",
     "start": "node server.js"
   },
   "repository": {
@@ -30,7 +30,6 @@
   "dependencies": {
     "bcryptjs": "^2.3.0",
     "body-parser": "^1.15.2",
-    "dotenv": "^2.0.0",
     "express": "^4.14.0",
     "jsonwebtoken": "^7.1.9",
     "mongoose": "^4.6.7",
