@@ -1,5 +1,3 @@
-'use strict';
-
 const connection = require('mongoose').connection;
 const state = require('mongoose/lib/connectionstate');
 

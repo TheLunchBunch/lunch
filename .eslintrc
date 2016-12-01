@@ -1,5 +1,8 @@
 {
-   "settings": {
+  "parserOptions": {
+    "sourceType": "module"
+  },
+  "settings": {
     "ecmascript": 6
   },
   "ecmaFeatures": {

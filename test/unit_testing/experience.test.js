@@ -1,4 +1,4 @@
-'use strict';
+
 const Experience = require('../../lib/models/experience');
 const assert = require('chai').assert;
 

@@ -1,4 +1,4 @@
-'use strict';
+
 
 const Vendor = require('../../lib/models/vendor');
 const assert = require('chai').assert;

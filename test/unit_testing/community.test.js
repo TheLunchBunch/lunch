@@ -1,4 +1,4 @@
-'use strict';
+
 const Community = require('../../lib/models/community');
 const assert = require('chai').assert;
 
