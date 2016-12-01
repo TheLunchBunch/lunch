@@ -1,7 +1,12 @@
 # Lunch Time!
 
 ## USERS:
-How many times have you looked glumly at yet another lunch from the same old place and wondered where your classmates were getting theirs?  Surely there must be enough recommendations that it would be worth seeing them all in one place.
+How many times have you looked glumly at yet another lunch from the same old 
+place and wondered where your classmates were getting theirs?  
+Surely there must be enough recommendations that it would be 
+worth seeing them all in one place.
+
+// Don't make your markdown lines so long :)
 
 **LunchPad** allows you to do just that.  Anyone working, studying or otherwise routinely occupying themselves at a given location can start a **LunchPad** community -- or join one that already exists -- and invite others to join them in posting brief reports on where they have had lunch.  Users log in and instantly see the most recent lunch experiences for their community, including time required, price and quality of the fare, and whether or not it was a worthwhile pick.  Experiences can be grouped either by vendor or by user, and **LunchPad** allows you to save your favorite users in order to quickly access just their experiences.  Have someone whose recommendations you especially value?  Just add them to your favorites.
 
