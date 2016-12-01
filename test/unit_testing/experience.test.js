@@ -16,20 +16,6 @@ describe('Creates full Model for experiences', () => {
     });
   });
 
-  // it('should require time field', done => {
-  //   const experience = new Experience({
-  //     name: 'test user',
-  //     howfast: 3,
-  //     calledAhead: true,
-  //     time: new Date()
-  //   });
-
-  //   experience.validate(err => {
-  //     assert.isNotOk(err, 'time is required');
-  //     done();
-  //   });
-  // });
-
   it('should require howfast field', done => {
     const experience = new Experience({
       name: 'test user',

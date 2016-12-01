@@ -127,6 +127,7 @@ describe('testing experience endpoints', () => {
       .get('/lunch/community/' + user.communityId)
       .set('authorization', user.token)
       .then(res => {
+        // vague test, be more explicit
         assert.isArray(res.body);
         assert.isOk(res.body);
         done();
