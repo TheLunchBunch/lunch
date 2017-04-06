@@ -33,7 +33,7 @@ How many times have you looked glumly at yet another lunch from the same old pla
 
 ### Application structure:
 - The application proper is organized into a `/lib` and a `/public` directory with only ancillary configuration files stored at the project root along with this document and the main executable, called `server.js`
-- All npm installs are included in the `/node_modules` directory, also at project root.  Aditionally, a third-party `normalize.css` is included in `/public/vendors/styles`; otherwise, all code originates within this project.
+- All npm installs are included in the `/node_modules` directory, also at project root.  Additionally, a third-party `normalize.css` is included in `/public/vendors/styles`; otherwise, all code originates within this project.
 - In tree order, the project is organized as follows:
   - The `/lib/auth` directory contains gatekeeper middleware for issuing, signing, and checking authorization and user-role data using tokens.
   - `/lib/models` contains **Mongoose** database Models defining document structure for each of the project's four **MongoDB** database collections.
