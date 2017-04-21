@@ -1,4 +1,4 @@
-'use strict';
+
 
 const connection = require('../lib/setup-mongoose');
 const db = require('./db');

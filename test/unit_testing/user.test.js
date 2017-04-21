@@ -1,4 +1,4 @@
-'use strict';
+
 const User = require('../../lib/models/user');
 const assert = require('chai').assert;
 
@@ -35,7 +35,9 @@ describe('it creates a full user model', () => {
       username: 'test user',
       communityId: '582a52f8eaee951a90b97839'
     });
-    assert.isArray(user.roles);
+    // be explicit
+    assert.equal(user.roles.length, 1);
+    assert.equal(user.roles[0], 'user');
     done();
   });
 });
